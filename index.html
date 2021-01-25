@@ -7,33 +7,56 @@
    <link rel="stylesheet" href="./css/style.css">
    <link rel="stylesheet" href="./css/bootstrap.min.css">
 </head>
-<body>
+<body data-spy="scroll" data-target=".navigator" data-offset="50">
 
-   <section class="section1">
+   <div class="navigator">
+      <a href="#section1">
+      <div class="tab"></div>
+      </a>
+      <a href="#section2">
+         <div class="tab" ></div>
+      </a>
+      <a href="#section3" >
+         <div class="tab" ></div>
+      </a>
+      <a href="#section4">
+         <div class="tab" ></div>
+      </a>
+      <a href="#section5">
+         <div class="tab"></div>
+      </a>
+   </div>
+
+   <div class="group">
+      <button class="btn prev d-none">Prev</button>
+      <button class="btn next d-none">Next</button>
+   </div>
+
+   <section id="section1">
       <div class="text-center">
          1
       </div>
    </section>
 
-   <section class="section2">
-      <div class="text-center">
-         2
+   <section id="section2">
+      <div class="text-center p-5">
+         <h1>2</h1>
       </div>
    </section>
 
-   <section class="section3">
+   <section id="section3">
       <div class="text-center">
          3
       </div>
    </section>
 
-   <section class="section4">
+   <section id="section4">
       <div class="text-center">
          4
       </div>
    </section>
 
-   <section class="section5">
+   <section id="section5">
       <div class="text-center">
          5
       </div>

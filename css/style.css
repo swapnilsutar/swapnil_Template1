@@ -2,25 +2,58 @@
    margin: 0;
    left: 0;
 }
+body{
+   overflow: hidden;
+}
+.group{
+   position: fixed;
+   top: 10px;
+   left: 20px;
+}
+.btn{
+   background-color: white !important;
+   margin: 5px;
+}
+
+.navigator{
+   position: fixed;   
+   top: 50%;
+   right: 0%;
+   transform: translate(91%, -50%);
+}
+.tab{
+   margin: 20px;
+   height: 10px;
+   width: 10px;
+   background-color: rgb(0, 0, 0);
+   border-radius: 50%;
+}
+
+.navigator a .tab:hover{
+   background-color: white;
+}
+.navigator a .tab:active {
+   background-color: white;
+}
 
 section{
    height: 100vh;
 }
 
-.section1{
+#section1{
    background-color: aqua;
    background-attachment: fixed;
    
 }
-.section2{
+#section2{
    background-color: rgb(43, 255, 0);
 }
-.section3{
+#section3{
    background-color: rgb(255, 115, 0);
 }
-.section4{
+#section4{
    background-color: rgb(0, 38, 255);
 }
-.section5{
+#section5{
    background-color: rgb(255, 0, 212);
 }
