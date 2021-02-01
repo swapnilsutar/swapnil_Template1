@@ -29,10 +29,10 @@ body{
    border-radius: 50%;
 }
 
-.navigator a .tab:hover{
+.navigator a:hover .tab{
    background-color: white;
 }
-.navigator a .tab:active {
+.navigator a:active .tab{
    background-color: white;
 }
 
